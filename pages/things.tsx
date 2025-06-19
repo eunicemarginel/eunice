@@ -7,11 +7,33 @@ import ProjectCard from '@/components/ProjectCard'
 
 const categories = ['All', 'Projects', 'Photography']
 
-const items = [
-  ...photographyData,
-  ...projectsData
-]
+// Define proper types
+interface ProjectItem {
+  id: number
+  type: 'Projects'
+  title: string
+  description: string
+  image: string
+  link: string
+}
 
+interface PhotoItem {
+  id: number
+  type: 'Photography'
+  title: string
+  model: string
+  brand: string
+  lens: string
+  settings: string
+  image: string
+}
+
+type Item = ProjectItem | PhotoItem
+
+const items: Item[] = [
+  ...photographyData,
+  ...projectsData,
+]
 
 export default function Things() {
   const router = useRouter()
@@ -56,28 +78,33 @@ export default function Things() {
       </div>
 
       <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-        {filteredItems.map((item) =>
-          item.type === 'Projects' ? (
-            <ProjectCard
-              key={item.id}
-              title={item.title}
-              description={(item as any).description}
-              image={item.image}
-              link={(item as any).link}
-            />
-          ) : (
-            <PhotoTile
-              key={item.id}
-              image={item.image}
-              model={(item as any).model}
-              brand={(item as any).brand}
-              lens={(item as any).lens}
-              settings={(item as any).settings}
-            />
-          )
-        )}
+        {filteredItems.map((item) => {
+          if (item.type === 'Projects') {
+            const project = item as ProjectItem
+            return (
+              <ProjectCard
+                key={project.id}
+                title={project.title}
+                description={project.description}
+                image={project.image}
+                link={project.link}
+              />
+            )
+          } else {
+            const photo = item as PhotoItem
+            return (
+              <PhotoTile
+                key={photo.id}
+                image={photo.image}
+                model={photo.model}
+                brand={photo.brand}
+                lens={photo.lens}
+                settings={photo.settings}
+              />
+            )
+          }
+        })}
       </section>
-
     </main>
   )
 }

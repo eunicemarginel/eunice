@@ -31,4 +31,4 @@ export const photographyData = [
         image: '/photos/bua-thai.jpg'
     }
     // Add more entries here!
-]
+] as const

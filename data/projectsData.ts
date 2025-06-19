@@ -25,4 +25,4 @@ export const projectsData = [
         image: '/projects/portfolio.png',
         link: '/'
     }
-]
+] as const
