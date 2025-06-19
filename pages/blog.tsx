@@ -20,7 +20,7 @@ export default function Blog() {
   return (
     <>
       <Head>
-        <title>eunice's thoughts</title>
+        <title>eunice`&apos;`s thoughts</title>
       </Head>
 
       <main className="min-h-screen bg-[#fdfbf7] px-4 py-12">

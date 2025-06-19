@@ -227,7 +227,7 @@ export const totsEntries: TotsEntryType[] = [
     {
         id: 27,
         title: 'home is where mama laughs the loudest 🇵🇭',
-        date: 'May 23, 2025',
+        date: 'May 01, 2025',
         mood: '🏠',
         snippet: "back in PH with mama and chuchay. shared silog breakfasts, sunset jeepney rides, and stories that didn’t need explaining. soul full.",
         bg: 'bg-[#f3f8ff]'

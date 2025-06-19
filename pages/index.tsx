@@ -26,7 +26,7 @@ export default function Home() {
           {/* Main content */}
           <div className="relative z-10">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif text-[#4b2e2e] mb-4 leading-tight">
-              It's Eunice!<br />Let's build something cool :)
+              It&apos;s Eunice!<br />Let&apos;s build something cool :)
             </h1>
             <p className="text-xs sm:text-sm text-[#5e4632] font-medium mb-4" style={{ fontFamily: 'Source Code Pro, monospace' }}>
               fullstack dev | photog

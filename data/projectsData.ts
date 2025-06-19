@@ -13,7 +13,7 @@ export const projectsData = [
         id: 2,
         type: 'Projects',
         title: 'Golden Shield Revamp',
-        description: 'WIP: A complete redesign of my company’s corporate site to feel more modern, techy, and functional.',
+        description: 'WIP: A complete redesign of my company`&apos;`s corporate site to feel more modern, techy, and functional.',
         image: '/projects/goldenshield.png',
         link: '#'
     },
