@@ -55,29 +55,33 @@ export default function Things() {
       </div>
 
       <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto items-start">
-        {filteredItems.map((item) =>
-          item.type === 'Projects' ? (
-            <ProjectCard
-              key={item.id}
-              title={item.title}
-              description={(item as any).description}
-              image={item.image}
-              link={(item as any).link}
-              tools={item.tools}
-            />
-          ) : (
+        {filteredItems.map((item) => {
+          if (item.type === 'Projects') {
+            return (
+              <ProjectCard
+                key={item.id}
+                title={item.title}
+                description={'description' in item ? item.description : ''}
+                image={item.image}
+                link={'link' in item ? item.link : ''}
+                tools={'tools' in item ? item.tools : []}
+              />
+            )
+          }
+
+          // fallback for photography
+          return (
             <PhotoTile
               key={item.id}
               image={item.image}
-              model={(item as any).model}
-              brand={(item as any).brand}
-              lens={(item as any).lens}
-              settings={(item as any).settings}
+              model={'model' in item ? item.model : ''}
+              brand={'brand' in item ? item.brand : ''}
+              lens={'lens' in item ? item.lens : ''}
+              settings={'settings' in item ? item.settings : ''}
             />
           )
-        )}
+        })}
       </section>
-
     </main>
   )
 }
