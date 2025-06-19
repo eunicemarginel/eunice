@@ -21,7 +21,7 @@ export default function Navbar() {
           tots
         </Link>
         <Link
-          href="/things"
+          href={{ pathname: '/things', query: { filter: 'projects' } }}
           className="text-sm sm:text-base font-light hover:text-[#7a5548] transition-all duration-500 ease-in-out text-center"
           style={{ fontFamily: 'var(--font-mono)' }}
         >
