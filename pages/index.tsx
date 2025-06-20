@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Navbar from '../components/Navbar'
-import { useEffect } from 'react'
 
 export default function Home() {
   // useEffect(() => {
