@@ -1,8 +1,18 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Navbar from '../components/Navbar'
+import { useEffect } from 'react'
 
 export default function Home() {
+  useEffect(() => {
+    // Lock scroll
+    document.body.style.overflow = 'hidden'
+
+    return () => {
+      // Unlock scroll when leaving the page
+      document.body.style.overflow = 'auto'
+    }
+  }, [])
   return (
     <>
       <Head>
@@ -15,12 +25,7 @@ export default function Home() {
       <Navbar />
 
       {/* ☕ Hero Section */}
-      <main className="h-screen overflow-hidden bg-[#fdfbf7] flex items-center justify-center p-6">
-        {/* <main className="min-h-screen w-full overflow-hidden bg-[#fdfbf7] flex items-center justify-center p-6 pt-32"> */}
-
-        {/* ☕ Navbar */}
-        <Navbar />
-
+      <main className="h-screen bg-[#fdfbf7] flex items-center justify-center p-6">
         <div className="max-w-xl w-full text-center relative px-4">
           {/* Coffee ring */}
           <div
@@ -37,14 +42,11 @@ export default function Home() {
               fullstack dev | photog
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 mt-4">
-              {/* Projects button → goes to /things?filter=projects */}
               <Link href={{ pathname: '/things', query: { filter: 'projects' } }} passHref>
                 <button className="bg-[#4b2e2e] text-white px-6 py-2 rounded-full hover:bg-[#3a221e] transition sm:w-auto w-48" style={{ fontFamily: 'Source Code Pro, monospace' }}>
                   PROJECTS
                 </button>
               </Link>
-
-              {/* Connect button → goes to /connect */}
               <Link href="/connect" passHref>
                 <button className="border border-[#4b2e2e] text-[#4b2e2e] px-6 py-2 rounded-full hover:bg-[#f1eae4] transition sm:w-auto w-48" style={{ fontFamily: 'Source Code Pro, monospace' }}>
                   CONNECT
