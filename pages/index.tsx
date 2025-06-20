@@ -4,15 +4,15 @@ import Navbar from '../components/Navbar'
 import { useEffect } from 'react'
 
 export default function Home() {
-  useEffect(() => {
-    // Lock scroll
-    document.body.style.overflow = 'hidden'
+  // useEffect(() => {
+  //   // Lock scroll
+  //   document.body.style.overflow = 'hidden'
 
-    return () => {
-      // Unlock scroll when leaving the page
-      document.body.style.overflow = 'auto'
-    }
-  }, [])
+  //   return () => {
+  //     // Unlock scroll when leaving the page
+  //     document.body.style.overflow = 'auto'
+  //   }
+  // }, [])
   return (
     <>
       <Head>

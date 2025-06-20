@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import { ChevronUp } from 'lucide-react'
 import TotsEntry from '@/components/TotsEntry'
 import { totsEntries } from '@/data/totsEntries'
+import ScrollTopButton from '@/components/ScrollTopButton'
 
 export default function Blog() {
   const [showScrollTop, setShowScrollTop] = useState(false)
@@ -25,7 +26,7 @@ export default function Blog() {
 
       <main className="min-h-screen bg-[#fdfbf7] px-4 py-12">
         <h1
-          className="text-3xl sm:text-4xl font-serif text-[#4b2e2e] text-center sticky top-10 z-10 px-4 py-3"
+          className="text-3xl sm:text-4xl font-serif text-[#4b2e2e] text-center sticky top-10 z-10 px-5 py-4 bg-transparent"
         >
           my unfiltered brain dump
         </h1>
@@ -52,6 +53,7 @@ export default function Blog() {
             <ChevronUp size={20} />
           </button>
         )}
+        <ScrollTopButton />
       </main>
     </>
   )

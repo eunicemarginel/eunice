@@ -4,6 +4,7 @@ import PhotoTile from '@/components/PhotoTile'
 import { photographyData } from '@/data/photographyData'
 import { projectsData } from '@/data/projectsData'
 import ProjectCard from '@/components/ProjectCard'
+import ScrollTopButton from '@/components/ScrollTopButton'
 
 const categories = ['All', 'Projects', 'Photography']
 
@@ -82,6 +83,7 @@ export default function Things() {
           )
         })}
       </section>
+      <ScrollTopButton />
     </main>
   )
 }
