@@ -1,9 +1,15 @@
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
+import { useRouter } from 'next/router'
 import '../styles/globals.css'
+
 import Navbar from '../components/Navbar'
+import Footer from '@/components/Footer'
 
 export default function MyApp({ Component, pageProps }: AppProps) {
+  const router = useRouter()
+  const isLandingPage = router.pathname === '/'
+
   return (
     <>
       <Head>
@@ -14,6 +20,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       </Head>
       <Navbar />
       <Component {...pageProps} />
+      {!isLandingPage && <Footer />}
     </>
   )
 }
