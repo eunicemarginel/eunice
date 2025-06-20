@@ -15,7 +15,8 @@ export default function Home() {
       <Navbar />
 
       {/* ☕ Hero Section */}
-      <main className="min-h-screen w-full overflow-hidden bg-[#fdfbf7] flex items-center justify-center p-6 pt-32">
+      <main className="h-screen overflow-hidden bg-[#fdfbf7] flex items-center justify-center p-6">
+        {/* <main className="min-h-screen w-full overflow-hidden bg-[#fdfbf7] flex items-center justify-center p-6 pt-32"> */}
         <div className="max-w-xl w-full text-center relative px-4">
           {/* Coffee ring */}
           <div
