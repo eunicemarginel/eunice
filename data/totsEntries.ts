@@ -410,10 +410,10 @@ export const totsEntries: TotsEntryType[] = [
     },
     {
         id: 53,
-        title: 'made with coffee, rage, and tears ✨',
-        date: 'Jun 21, 2025',
+        title: 'week-END fast af 😩',
+        date: 'Jun 22, 2025',
         mood: '💻',
-        snippet: "check out my site 👉 eunicemarginel.com ✨ it’s giving coffee, chaos, and code — just like me.",
+        snippet: "isn't it friday just now?! how is it already monday in few hours!! I barely had any sleep yet! calm down a bit will u!😭",
         bg: 'bg-[#f4f9ec]',
     },
 
