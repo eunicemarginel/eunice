@@ -43,7 +43,7 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 mt-4">
               <Link href={{ pathname: '/things', query: { filter: 'projects' } }} passHref>
                 <button className="bg-[#4b2e2e] text-white px-6 py-2 rounded-full hover:bg-[#3a221e] transition sm:w-auto w-48" style={{ fontFamily: 'Source Code Pro, monospace' }}>
-                  PROJECTS
+                  STUFF
                 </button>
               </Link>
               <Link href="/connect" passHref>
