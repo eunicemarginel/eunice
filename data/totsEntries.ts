@@ -416,6 +416,102 @@ export const totsEntries: TotsEntryType[] = [
         snippet: "isn't it friday just now?! how is it already monday in few hours!! I barely had any sleep yet! calm down a bit will u!😭",
         bg: 'bg-[#f4f9ec]',
     },
+    {
+        id: 54,
+        title: 'coffee for breakfast, lunch & regrets ☕️',
+        date: 'Jun 22, 2025',
+        mood: '💥',
+        snippet: "ate no real food today. just espresso and adrenaline. now i’m shaking and solving bugs at lightning speed.",
+        bg: 'bg-[#fff1ec]'
+    },
+    {
+        id: 55,
+        title: 'screenshot spiral 📸',
+        date: 'Jun 22, 2025',
+        mood: '🗂️',
+        snippet: "tried to organize my screenshots folder. ended up reliving 2 years of chaos. found a pic of a bug i never fixed.",
+        bg: 'bg-[#f8f5fc]'
+    },
+    {
+        id: 56,
+        title: 'brain: buffering... again 🧠⏳',
+        date: 'Jun 23, 2025',
+        mood: '🫠',
+        snippet: "opened 5 tabs to start a task. forgot the task. stared at tab 3 for 15 mins. closed laptop.",
+        bg: 'bg-[#fef7ec]'
+    },
+    {
+        id: 57,
+        title: 'when HR becomes IT 😵‍💫',
+        date: 'Jun 23, 2025',
+        mood: '🖥️',
+        snippet: "someone asked if i could help 'fix' the printer. i write code, not spells. but sure, i’ll try.",
+        bg: 'bg-[#edf4ff]'
+    },
+    {
+        id: 58,
+        title: 'inbox: 40 unread, 0 emotional capacity 🧃',
+        date: 'Jun 24, 2025',
+        mood: '📨',
+        snippet: "opened email. saw the count. sipped coffee. closed email. we’ll try again tomorrow.",
+        bg: 'bg-[#f3f3f3]'
+    },
+    {
+        id: 59,
+        title: 'debugging my attitude 💁‍♀️',
+        date: 'Jun 24, 2025',
+        mood: '⚙️',
+        snippet: "client feedback made me cry a little. but also fixed 3 layout issues out of spite. we win anyway.",
+        bg: 'bg-[#fdf4f1]'
+    },
+    {
+        id: 60,
+        title: 'just another bug in the matrix 🕷️',
+        date: 'Jun 25, 2025',
+        mood: '🧩',
+        snippet: "this bug disappeared when i added a comment. now i’m scared to touch anything else.",
+        bg: 'bg-[#fffbe8]'
+    },
+    {
+        id: 61,
+        title: 'treat yoself wednesday 🍜',
+        date: 'Jun 25, 2025',
+        mood: '🍽️',
+        snippet: "had noodles for lunch. bubble tea after. life still chaotic, but at least i’m hydrated (with sugar).",
+        bg: 'bg-[#f8f8ff]'
+    }, {
+        id: 62,
+        title: 'the HR spreadsheet wars begin again ⚔️',
+        date: 'Jun 26, 2025',
+        mood: '📊',
+        snippet: "30 sites, 60 tabs, 1 exhausted girl with a pivot table and a prayer.",
+        bg: 'bg-[#fffaf5]'
+    },
+    {
+        id: 63,
+        title: 'styled a div, styled my soul 🧘‍♀️',
+        date: 'Jun 26, 2025',
+        mood: '🎨',
+        snippet: "made a card hover smoother today. heart fluttered. maybe healing starts with css transitions.",
+        bg: 'bg-[#edf7f6]'
+    },
+    {
+        id: 64,
+        title: 'caffeine count: 4 ☕️☕️☕️☕️',
+        date: 'Jun 27, 2025',
+        mood: '😵',
+        snippet: "this ain’t a sprint anymore. it’s a 24-hour caffeine marathon and i’m the only runner.",
+        bg: 'bg-[#fcefe8]'
+    },
+    {
+        id: 65,
+        title: 'merge conflict... with myself 💥',
+        date: 'Jun 27, 2025',
+        mood: '🤹‍♀️',
+        snippet: "working on 3 things at once. forgot what branch i’m on. forgot what i’m fixing. send help or iced latte.",
+        bg: 'bg-[#f4f9ec]'
+    },
+
 
     // ⤵️ Add the rest of your entries here using the same structure
 ];
