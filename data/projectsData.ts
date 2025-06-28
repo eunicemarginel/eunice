@@ -5,7 +5,7 @@ export const projectsData = [
         id: 1,
         type: 'Projects',
         title: 'Sweets Site 🍬',
-        description: "built a site that’s as festive as the sweets it sells — peacocks, ladoos, and all. warning: may cause cravings.",
+        description: "jun 2025 — built a site that’s as festive as the sweets it sells — peacocks, ladoos, and all. warning: may cause cravings.",
         image: '/photos/proj8.webp',
         link: 'https://hv-foods.vercel.app/',
         tools: ['Next.js', 'Tailwind CSS', 'Typescript', 'Vercel']
