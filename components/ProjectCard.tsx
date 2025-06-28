@@ -13,7 +13,7 @@ export default function ProjectCard({ title, description, image, link, tools }: 
                 <img
                     src={image}
                     alt={title}
-                    className="w-full h-48 object-cover rounded mb-3"
+                    className="w-full object-contain rounded mb-3 max-h-64"
                 />
             )}
             <h2 className="text-lg font-bold text-[#4b2e2e] mb-1 font-serif">{title}</h2>

@@ -511,7 +511,30 @@ export const totsEntries: TotsEntryType[] = [
         snippet: "working on 3 things at once. forgot what branch i’m on. forgot what i’m fixing. send help or iced latte.",
         bg: 'bg-[#f4f9ec]'
     },
-
+    {
+        id: 66,
+        title: 'spaghetti of mystery 🍝',
+        date: 'Jun 28, 2025',
+        mood: '🫣',
+        snippet: "cooked lunch without measuring anything. tasted… okay? would i serve it to a guest? only if they wronged me.",
+        bg: 'bg-[#fff2ef]',
+    },
+    {
+        id: 67,
+        title: 'digital cart betrayal 🛒',
+        date: 'Jun 28, 2025',
+        mood: '😤',
+        snippet: "started with ‘i’ll just do online groceries’. 30 mins later i was in aisle 7 arguing with a tomato. online failed me.",
+        bg: 'bg-[#fdfbe8]',
+    },
+    {
+        id: 68,
+        title: 'project done, soul gone ✅',
+        date: 'Jun 28, 2025',
+        mood: '💀',
+        snippet: "finished one client site, stared at my screen, and immediately got hungry. i code, therefore i crave.",
+        bg: 'bg-[#f4f9f5]',
+    },
 
     // ⤵️ Add the rest of your entries here using the same structure
 ];
