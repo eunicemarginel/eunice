@@ -16,7 +16,7 @@ export default function Blog() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  const entries = totsEntries
+  const entries = [...totsEntries].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 
   return (
     <>
