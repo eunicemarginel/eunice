@@ -695,6 +695,22 @@ export const totsEntries: TotsEntryType[] = [
         snippet: "no new emails in 2 hours. did i finish everything? or am i just hallucinating peace?",
         bg: 'bg-[#f5f0ff]',
     },
+    {
+        id: 89,
+        title: 'from excel sheets to badminton feats 🏸',
+        date: 'Jul 08, 2025',
+        mood: '🧍‍♀️💥',
+        snippet: "left work in full office attire and somehow ended up diving for a shuttlecock. competitive? always. prepared? never.",
+        bg: 'bg-[#f6faff]',
+    },
+    {
+        id: 90,
+        title: 'the dinner trap 🍚',
+        date: 'Jul 08, 2025',
+        mood: '🍴',
+        snippet: "i wasn’t gonna go but they said there’d be home-cooked food. next thing i knew i’m panting, sweating, and questioning my life choices. 10/10 would eat again.",
+        bg: 'bg-[#fef3f0]',
+    },
 
 
     // ⤵️ Add the rest of your entries here using the same structure
