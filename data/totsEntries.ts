@@ -822,7 +822,55 @@ export const totsEntries: TotsEntryType[] = [
         mood: '🧠',
         snippet: 'opened VSCode like a boss. stared at screen for 12 mins. added a semicolon and called it a productive day.',
         bg: 'bg-[#fcefe8]',
+    }, {
+        id: 105,
+        title: 'wtf just happened 😵‍💫',
+        date: 'Jul 14, 2025',
+        mood: '🚨',
+        snippet: "emails! reports! miscommunication! my boss switched reporting format mid-sentence and i short-circuited on the spot.",
+        bg: 'bg-[#fff3f3]',
     },
+    {
+        id: 106,
+        title: 'urgent means panic 🫠',
+        date: 'Jul 14, 2025',
+        mood: '📉',
+        snippet: "i had 5 tasks. then 5 more got marked 'urgent'. now i'm doing 0. math ain’t mathing but anxiety is.",
+        bg: 'bg-[#fef6e4]',
+    },
+    {
+        id: 107,
+        title: 'report roulette 🎲',
+        date: 'Jul 14, 2025',
+        mood: '🧠🔥',
+        snippet: "we’ve been doing the same report for years. today boss said 'that’s not the one'. girl be fr.",
+        bg: 'bg-[#fdfbf7]',
+    },
+    {
+        id: 108,
+        title: 'zen activated (kinda) 🧘‍♀️',
+        date: 'Jul 15, 2025',
+        mood: '🌿',
+        snippet: "less screaming today. still chaotic, but at least my soul didn’t leave my body before lunch.",
+        bg: 'bg-[#f4f9ec]',
+    },
+    {
+        id: 109,
+        title: 'friends, food, badminton 🏸',
+        date: 'Jul 15, 2025',
+        mood: '🍜',
+        snippet: "ended the workday with a hearty dinner and sweaty badminton sesh. calories in, calories gone. barely.",
+        bg: 'bg-[#fffbe8]',
+    },
+    {
+        id: 110,
+        title: 'life, backhand smash ✨',
+        date: 'Jul 15, 2025',
+        mood: '🔥',
+        snippet: "showed up in office attire, played like a demon on court. hunger: defeated. stress: momentarily silenced.",
+        bg: 'bg-[#fdf1f3]',
+    },
+
 
     // ⤵️ Add the rest of your entries here using the same structure
 ];
