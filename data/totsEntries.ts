@@ -1707,6 +1707,22 @@ export const totsEntries: TotsEntryType[] = [
         snippet: 'clicked through the internal feed today and thought… damn, this is ours.',
         bg: 'bg-[#fdf4f9]',
     },
+    {
+        id: 213,
+        title: 'taipei daydreams 🛫',
+        date: 'Sep 8, 2025',
+        mood: '🌸',
+        snippet: 'scrolling itineraries, picturing night markets and Jiufen lanterns. trip hype is real.',
+        bg: 'bg-[#f3f8ff]',
+    },
+    {
+        id: 214,
+        title: 'apps script rabbit hole 🐇',
+        date: 'Sep 8, 2025',
+        mood: '💻',
+        snippet: 'every new function feels like unlocking a cheat code. payroll may never be the same again.',
+        bg: 'bg-[#fef6e4]',
+    },
 
 
 
